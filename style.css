@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    background-color: #E0E0E0;
+    font-family: 'Handlee', cursive;
+}
+
+
+.inputs {
+    margin: 8rem;
+    padding: 10rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: #3D4743;
+    border-bottom: solid #272E2B 10px;
+    border-right: solid #272E2B 10px;
+    border-radius: 20px;
+}
+
+.outputs {
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: #272E2B;
+    padding: 6%;
+    border-radius: 10px;
+}
+
+
+#title {
+    color: #E0E0E0;
+    margin-bottom: 10%;
+}
+
+#inputCEP {
+    margin: 1%;
+    padding: 10px;
+    border: #3D4743 10px;
+    border-radius: 4px;
+}
+
+#searchButton {
+    margin: 1%;
+    padding: 10px;
+    border: #3D4743 10px;
+    border-radius: 4px;
+    background-color: #E0E0E0;
+}
+
+#searchButton:hover {
+    background-color: #437A63;
+    color: #E0E0E0;
+}
+
+#cleanButton {
+    margin: 1%;
+    margin-top: 40px;
+    padding: 10px;
+    border: #3D4743 10px;
+    border-radius: 4px;
+    background-color: #E0E0E0;
+}
+
+#cleanButton:hover {
+    background-color: #C75A46;
+    color: #E0E0E0;
+}
+
+/*------------------------------------OUTPUTS------------------------------------*/
+
+#outputCity {
+    margin: 1%;
+    padding: 10px;
+    border: #3D4743 10px;
+    border-radius: 4px;
+}
+
+#outputState {
+    margin: 1%;
+    padding: 10px;
+    border: #3D4743 10px;
+    border-radius: 4px;
+}
+
+#outputDistrict {
+    margin: 1%;
+    padding: 10px;
+    border: #3D4743 10px;
+    border-radius: 4px;
+}
+
+#outputAddress {
+    margin: 1%;
+    padding: 10px;
+    border: #3D4743 10px;
+    border-radius: 4px;
+}
+
