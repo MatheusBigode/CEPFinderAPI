@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP Finder
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+      </style>
+</head>
+<body>
+    <div class="inputs">
+        <h1 id="title">
+            Busca de Endereço
+        </h1>
+        <input type="number" id="inputCEP" placeholder="Insira seu CEP">
+
+        <input type="button" id="searchButton" value="Buscar" onclick="buscaCep()">           
+            
+        
+
+            <div class="outputs">
+                <input type="text" id="outputCity" placeholder="Cidade" readonly>
+
+                <input type="text" id="outputState" placeholder="Estado" readonly>
+
+                <input type="text" id="outputDistrict" placeholder="Bairro" readonly>
+
+                <input type="text" id="outputAddress" placeholder="Logradouro" readonly>
+            </div>
+
+            <input type="button" id="cleanButton" value="Limpar" onclick="limpar()"> 
+    </div>
+       
+
+    
+    
+</body>
+<script src="script.js"></script>
+</html>
